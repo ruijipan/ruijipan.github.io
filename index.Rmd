@@ -14,5 +14,5 @@ Here I mainly share some interesting projects about data mining, and anyone can 
 You can click the icon in the upper right corner to visit my personal github account and view all my published works.
 
 
-### [Email Contact](rp3127@cumc.columbia.edu)
+### Email Contact
 Of course, if you have any questions, please feel free to contact rp3127@cumc.columbia.edu.
