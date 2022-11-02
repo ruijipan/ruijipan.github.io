@@ -10,8 +10,9 @@ output:
 Here I mainly share some interesting projects about data mining, and anyone can learn and discuss with me.
 <img src="images/01.jpeg" style="width:50%" align="center">
 
-### Github Contact
+### [Github Contact](https://github.com/ruijipan/)
 You can click the icon in the upper right corner to visit my personal github account and view all my published works.
 
-### Email Contact
+
+### [Email Contact](rp3127@cumc.columbia.edu)
 Of course, if you have any questions, please feel free to contact rp3127@cumc.columbia.edu.
