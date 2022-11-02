@@ -1,0 +1,47 @@
+---
+title: "dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data(instacart)
+
+instacart = filter(instacart, reordered == 1)
+```
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Histogram
+
+```{r}
+instacart %>%
+  filter(!is.na(days_since_prior_order), order_dow == 4, order_hour_of_day %in% c(10,15)) %>%
+  plot_ly(x = ~order_hour_of_day,color = ~department,type = 'histogram',alpha = 1, colors = "viridis")
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Box
+
+```{r}
+instacart %>%
+  filter(department == "breakfast") %>%
+  plot_ly(y = ~days_since_prior_order,color = ~aisle,type = 'box',alpha = 1, colors = "viridis")
+```
+
+### Scatter
+
+```{r}
+instacart %>%
+  filter(order_hour_of_day == 15) %>%
+  plot_ly(x = ~order_dow, y = ~days_since_prior_order,color = ~department,type = 'scatter',alpha = 1, colors = "viridis")
+```
+

@@ -1,0 +1,17 @@
+---
+title: "Welcome to my website"
+output: 
+  html_document:
+    toc: false
+    toc_float: true
+---
+
+### This is my personal site
+Here I mainly share some interesting projects about data mining, and anyone can learn and discuss with me.
+<img src="images/01.jpeg" style="width:50%" align="center">
+
+### Github Contact
+You can click the icon in the upper right corner to visit my personal github account and view all my published works.
+
+### Email Contact
+Of course, if you have any questions, please feel free to contact rp3127@cumc.columbia.edu.
