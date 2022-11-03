@@ -10,6 +10,9 @@ output:
 Here I mainly share some interesting projects about data mining, and anyone can learn and discuss with me.
 <img src="images/01.jpeg" style="width:50%" align="center">
 
+### Layout Introduction
+At present, this site has a dashboard visual page written by plotly, as well as warehouse links, LinkedIn links, self-introduction and email addresses. Readers can click on the corresponding links to enter the fields of interest to learn about them.
+
 ### [Github Contact](https://github.com/ruijipan/)
 You can click the icon in the upper right corner to visit my personal github account and view all my published works.
 
